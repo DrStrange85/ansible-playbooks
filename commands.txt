@@ -1,0 +1,23 @@
+anisble commands
+
+
+1. create PST github account
+  - all scripts is updated under this github account
+  - new scripts are pushed into this account
+2. run VS code with A account
+3. git clone account
+
+# Clone Github Account to Computer
+git clone https://github.com/DrStrange85/ansible-playbooks
+
+# anisble version
+ansible --version
+
+# upload file to cloud drive
+right-click file > select 'upload to cloud shell'
+
+# run a playbook and pass a variable
+anisble-playbook ./createvm.yml -e "resource_group_name=testname"
+
+# list scripts in cloud shell
+ls -l

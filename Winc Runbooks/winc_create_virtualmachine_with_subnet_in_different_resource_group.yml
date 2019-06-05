@@ -33,7 +33,7 @@
       resource_group: "{{ resource_group_secondary }}"
       name: "{{ vm_name }}"
       address_prefix: "10.0.1.0/24"
-      virtual_network: "{{ vm_name }}"
+      virtual_network: "{{ vm_name }}" 
   - name: Create VM
     azure_rm_virtualmachine:
       resource_group: "{{ resource_group }}"
